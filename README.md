@@ -61,7 +61,9 @@ https://pypi.org/search/?q=%22Robot+Framework+library++%22++REST&o=
 - https://robocorp.com/docs/languages-and-frameworks/robot-framework/cheat-sheet
 - https://robocorp.com/docs/libraries
 - https://rpaframework.org/  +++
-
+- https://www.blazemeter.com/blog/robot-framework ++
+- https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+- https://www.browserstack.com/guide/robot-framework-and-selenium-tutorial
 
 ##  Install Tools:
 - [Install Git](https://git-scm.com/downloads)
@@ -131,8 +133,13 @@ pip install --upgrade RESTinstance
 ```
 **Selenium** :  https://robotframework.org/SeleniumLibrary/
 ```
-pip install --upgrade robotframework-seleniumlibrary
-pip install webdriver-manager
+pip install selenium robotframework-selenium2library webdrivermanager
+set PATH=%PATH%;C:\TOOLS\seleniumdriver\
+chromedriver --version
+https://www.blazemeter.com/blog/robot-framework
+https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+https://www.browserstack.com/guide/robot-framework-and-selenium-tutorial
+
 ```
 
 ## Contributors ##
