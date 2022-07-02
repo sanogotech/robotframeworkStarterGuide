@@ -31,14 +31,28 @@ Robot Framework  Starter Guide for Test Automation and  RPA
 RobotFramework permet de couvrir des tests
 
 - Les Tests Fonctionnel avec Selenium
-- Les Test Intégration REST API 
+- Les Test Intégration REST API : https://pypi.org/project/RESTinstance/
+- Full external Library (Desktop, SAP, Database, ect ..)
+- Syntax Basic linear or Tabular 
+- Test Remote with SSH, FTP
 - Test with Mock Server Data
+- Test Data Driven(tabular data) or Test Behavior Driven (Given, When, Then)
+- Tags to select Tests
 - La Recette en fournissant un rapport d’exécution des tests livrable au client
 - La Non Régression reproductible de façon journalière à la mode intégration continue
 - La Couverture de code si l’outillage adéquat est réalisé (avec cobertura  par exemple)
 - Les Tests de Performance avec Jmeter 
+##  Search  Libraries 
+
+```
+
+https://pypi.org/search/?q=%22Robot+Framework+library++%22++REST&o=
+
+```
+
 
 ## Docs
+- https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-cases
 - https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 - https://collonvillethomas.wordpress.com/2018/05/27/robotframework/
 - https://www.younup.fr/blog/ecrire-ses-keywords-robot-framework-avec-python
@@ -46,6 +60,7 @@ RobotFramework permet de couvrir des tests
 - [Qualité Logiciel] https://youtu.be/W9atBa6zXfo
 - https://robocorp.com/docs/languages-and-frameworks/robot-framework/cheat-sheet
 - https://robocorp.com/docs/libraries
+- https://rpaframework.org/  +++
 
 
 ##  Install Tools:
