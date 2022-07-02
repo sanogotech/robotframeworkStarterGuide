@@ -126,9 +126,14 @@ _Robot Framework
 ## Libraries ##
 
 **REST** : https://pypi.org/project/RESTinstance/
-
+```
+pip install --upgrade RESTinstance
+```
 **Selenium** :  https://robotframework.org/SeleniumLibrary/
-
+```
+pip install --upgrade robotframework-seleniumlibrary
+pip install webdriver-manager
+```
 
 ## Contributors ##
 [Souleymane SANOGO](https://www.linkedin.com/in/souleymanesanogo/)
