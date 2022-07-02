@@ -3,7 +3,7 @@ Robot Framework  Starter Guide for Test Automation and  RPA
 
 <h1 align="center">
   <br>
-  <a><img src="https://github.com/khandelwal-arpit/springboot-starterkit-mysql/blob/master/docs/images/spring-framework.png" alt="Robot Framework"></a>
+  <a><img src="https://github.com/sanogotech/robotframeworkStarterGuide/blob/main/docs/images/robotarchilevel.png" alt="Robot Framework"></a>
   <br>
   Robot Framework is a Python-based, extensible keyword-driven automation framework for acceptance testing, acceptance test driven development (ATDD), behavior driven development (BDD) and robotic process automation (RPA).
   <br>
