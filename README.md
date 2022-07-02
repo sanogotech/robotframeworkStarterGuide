@@ -54,6 +54,10 @@ RobotFramework permet de couvrir des tests
 - [Install pip](https://pip.pypa.io/en/stable/install...)
 - [Install Robot Framework](https://pypi.org/project/robotframework/)
 - [Install SeleniumLibrary and WebDrivers](http://robotframework.org/SeleniumLib...)
+- [Install RIDE IDE] 
+```pip install robotframework-ride
+   ride.py
+```
 
 ## Robot Framework : Validate Installations
 At command line type to verify tool installation:
@@ -65,7 +69,15 @@ robot --version
 pip --version-
 chromedriver --version
 
+``` 
+
+## Robocop tools : robot file quality
 ```
+$ pip install robotframework-robocop
+robocop
+```
+
+
 
 
 ## Table of Contents ##
