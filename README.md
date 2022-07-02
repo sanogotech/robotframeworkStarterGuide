@@ -1,12 +1,11 @@
 # robotframeworkStarterGuide
 Robot Framework  Starter Guide for Test Automation and  RPA
 
-
 <h1 align="center">
   <br>
-  <a><img src="https://github.com/khandelwal-arpit/springboot-starterkit-mysql/blob/master/docs/images/spring-framework.png" alt="spring boot"></a>
+  <a><img src="https://github.com/khandelwal-arpit/springboot-starterkit-mysql/blob/master/docs/images/spring-framework.png" alt="Robot Framework"></a>
   <br>
-  Spring Boot Starter-kit
+  Robot Framework is a Python-based, extensible keyword-driven automation framework for acceptance testing, acceptance test driven development (ATDD), behavior driven development (BDD) and robotic process automation (RPA).
   <br>
 </h1>
 
@@ -40,68 +39,43 @@ Robot Framework  Starter Guide for Test Automation and  RPA
 </p>
 
 
-## Metric Actuator
+## Uses Cases  Robot Framework
 
-http://localhost:8090/actuator/metrics/jvm.memory.max
+RobotFramework permet de couvrir des tests
 
-## Heroku  CLI
+- Les Tests Fonctionnel avec Selenium
+- Les Test Intégration REST API 
+- Test with Mock Server Data
+- La Recette en fournissant un rapport d’exécution des tests livrable au client
+- La Non Régression reproductible de façon journalière à la mode intégration continue
+- La Couverture de code si l’outillage adéquat est réalisé (avec cobertura  par exemple)
+- Les Tests de Performance avec Jmeter 
 
-```
-* create new application on heroku
-mvn  clean install -Dmaven.test.skip=true
-(optional for source on heroku git) *git push heroku main
-heroku login
-heroku plugins:install java
-heroku buildpacks:add heroku/jvm --app gestionassociation
-heroku buildpacks:clear --app APP_NAME
-(optional to verify java) heroku run java -version --app  APP_NAME
-heroku deploy:jar  my-app.jar --app APP_NAME
-heroku deploy:jar target/heroku-demo-0.0.1-SNAPSHOT.jar --app <APP-NAME>
-heroku deploy:jar target/gestionassociation-1.0.jar  --app gestionassociation
-heroku logs --tail
-```
-
-## Robot Frameword Test Automation + RPA
-
-https://robotframework.org/
-## Github Actions CI
-
-To get started using the action, just make sure to have a Procfile or a Dockerfile in your project and then create a folder called .github and inside it, create another folder called workflows. Finally inside the workflows folder, create a file called main.yml with the following contents
-- https://docs.github.com/en/actions/quickstart
-- https://github.com/marketplace/actions/deploy-to-heroku
-
-##  Travis CI
-- https://github.com/travis-ci/travis.rb#windows
-- https://docs.travis-ci.com/user/deployment/heroku/
-
-travis encrypt $(heroku auth:token) --add deploy.api_key
 ## Docs
-- https://www.callicoder.com/deploy-host-spring-boot-apps-on-heroku/
+- https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+- https://collonvillethomas.wordpress.com/2018/05/27/robotframework/
+- [Qualité Logiciel] https://youtu.be/W9atBa6zXfo
 
-##  Web
 
-** application.properties
-** replace  server.port=8080  with :
-server.port=${PORT:8080}
+##  Install Tools:
+- [Install Git](https://git-scm.com/downloads)
+- [Install python 3.6](https://www.python.org/downloads/)
+- [Install pip](https://pip.pypa.io/en/stable/install...)
+- [Install Robot Framework](https://pypi.org/project/robotframework/)
+- [Install SeleniumLibrary and WebDrivers](http://robotframework.org/SeleniumLib...)
 
-## SONAR
-``` 
-mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=the-generated-token
-``` 
+## Robot Framework : Validate Installations
+At command line type to verify tool installation:
 
-``` 
-<plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.4.0.905</version>
-            </plugin>
+```
+git version
+python --version
+robot --version
+pip --version-
+chromedriver --version
 
-``` 
+```
 
-- http://gestionassociation.herokuapp.com/
-
-##  Test / reporting  Jacoco
-- mvn clean verify
 
 ## Table of Contents ##
 1. [Philosophy](#Philosophy)
@@ -489,8 +463,7 @@ Here are the various screens of the Admin portal that you should be able to use 
 </p>
 
 ## Contributors ##
-[Souleymane SANOGO ](https://www.linkedin.com/in/souleymanesanogo/)
+[Arpit Khandelwal](https://www.linkedin.com/in/arpitkhandelwal1984/)
 
 ## License ##
 This project is licensed under the terms of the MIT license.
-
