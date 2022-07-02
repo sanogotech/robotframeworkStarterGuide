@@ -3,13 +3,17 @@ Robot Framework  Starter Guide for Test Automation and  RPA
 
 <h2 align="center">
   <br>
-  <a><img src="https://github.com/sanogotech/robotframeworkStarterGuide/blob/main/docs/images/robotarchilevel.png" alt="Robot Framework"></a>
+  <a><img src="https://github.com/sanogotech/robotframeworkStarterGuide/blob/main/docs/images/Robot-framework-logo.png" alt="Robot Framework"></a>
   <br>
-  Robot Framework is a Python-based, extensible keyword-driven automation framework for acceptance testing, acceptance test driven development (ATDD), behavior driven development (BDD) and robotic process automation (RPA).
+  <br>
+	<a><img src="https://github.com/sanogotech/robotframeworkStarterGuide/blob/main/docs/images/robotarchilevel.png" alt="Robot Framework"></a>
+  <br>
+  
+  Robot Framework keyword-driven is a Python-based, extensible keyword-driven automation framework for acceptance testing, acceptance test driven development (ATDD), behavior driven development (BDD) and robotic process automation (RPA).
   <br>
 </h1>
 
-<h4 align="center">  Robot Framework is a Python-based, extensible keyword-driven automation framework for acceptance testing, acceptance test driven development (ATDD), behavior driven development (BDD) and robotic process automation (RPA).</h4>
+<h4 align="center">  Robot Framework keyword-driven is a Python-based, extensible keyword-driven automation framework for acceptance testing, acceptance test driven development (ATDD), behavior driven development (BDD) and robotic process automation (RPA).</h4>
 
 <p align="center">
     <a alt="Java">
@@ -37,7 +41,11 @@ RobotFramework permet de couvrir des tests
 ## Docs
 - https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 - https://collonvillethomas.wordpress.com/2018/05/27/robotframework/
+- https://www.younup.fr/blog/ecrire-ses-keywords-robot-framework-avec-python
+- https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
 - [Qualité Logiciel] https://youtu.be/W9atBa6zXfo
+- https://robocorp.com/docs/languages-and-frameworks/robot-framework/cheat-sheet
+- https://robocorp.com/docs/libraries
 
 
 ##  Install Tools:
