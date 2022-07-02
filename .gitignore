@@ -1,0 +1,57 @@
+### OS #########################################################################
+
+# OS specific
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+
+### Python #####################################################################
+
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtualenv(s)
+.venv/
+venv/
+# setuptools
+build/
+dist/
+pip-wheel-metadata/
+*.egg-info/
+
+# pycoverage
+.coverage
+.coverage.*
+
+# pytest
+.pytest_cache/
+
+# mypy
+.dmypy.json
+dmypy.json
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+### Project ####################################################################
+
+# Robot Framework
+log.html
+output.xml
+report.html
+
+# nox -s testenv (mountebank)
+node_modules/
+
+# nox -s atest
+results/
+
+# RESTinstance: mountebank
+mb.log
+mb1.log
+mb.pid

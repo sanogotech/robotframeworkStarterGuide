@@ -92,8 +92,20 @@ $ pip install robotframework-robocop
 robocop
 ```
 
+##  Install and Run  Test
+- Install REST Library : RESTinstance : https://pypi.org/project/RESTinstance/
+```
+python -m venv venv
+source venv/bin/activate or venv/Scripts/activate.bat
+
+pip install --upgrade RESTinstance
+
+```
 
 
+```
+robot --outputdir results atest/
+```
 
 ## Table of Contents ##
 1. [Philosophy](#Philosophy)
