@@ -104,47 +104,30 @@ pip install --upgrade RESTinstance
 
 
 ```
-robot --outputdir results atest/
+robot --outputdir results sampleprojetride/
 ```
 
 ## Table of Contents ##
-1. [Philosophy](#Philosophy)
-2. [Medium Articles](#Medium-Articles)
-3. [Spring Boot](#Spring-Boot)
-4. [Application](#Application)
-5. [Database Schema](#Database-Schema)
-6. [Technology](#Technology)
-7. [Application Structure](#Application-Structure)
-8. [Run Locally](#Running-the-server-locally)
-9. [Run Insider Docker](#Running-the-server-in-Docker-Container)
-10. [API Documentation](#API-Documentation)
-11. [User Interface](#User-Interface)
-12. [Contributor](#Contributor)
-13. [License](#License)
+1. [Robot Framework ](#Robot Framework)
+2. [Keys Concepts](#Keys Concepts)
+3. [Libraries](#Libraries)
 
-## Philosophy ##
-A lot of work has gone into Spring Boot to reduce complexity and dependencies, which largely alleviates our previous reservations. If you live in a Spring ecosystem and are moving to microservices, Spring Boot is now the obvious choice. Spring Boot allows easy set up of standalone Spring-based applications. It's ideal for pulling up new microservices and easy to deploy. It also makes data access less of a pain due to the hibernate mappings with much less boilerplate code. You can get started with minimum fuss due to it taking an opinionated view of the Spring platform and third-party libraries. Most Spring Boot applications need very little Spring configuration. 
+## Robot Framework ##
+A Todo
 
-The greatest thing about Spring Boot is the ability to be up and running in very little time. You don’t have to install a web server like JBoss, Websphere, or even Tomcat for that matter. All you need to do is pull in the proper libraries, annotate, and fire away. If you are going to do a lot of Spring Boot projects, I would highly suggest using the IntelliJ IDEA IDE. It has some great features for making Boot projects really easy to manage. You can of course choose between Maven or Gradle to manage dependencies and builds. This starter kit is based on Maven as it is what I am familiar and slightly more comfortable with. 
 
-## Medium Articles ##
-Readers can find more information about this starter-kit on my medium publication [The Resonant Web](https://medium.com/the-resonant-web). I have written a series of two articles on Spring Boot v2, here are the links:
+## Keys Concepts ##
+_Robot Framework
 
-[Part-1](https://medium.com/the-resonant-web/spring-boot-2-0-starter-kit-part-1-23ddff0c7da2)  
-[Part-2](https://medium.com/the-resonant-web/spring-boot-2-0-project-structure-and-best-practices-part-2-7137bdcba7d3)
+**Concept1** : This simply means that Spring Boot has its own configurations, application structures, dependencies, Servers and other environment configuration available inside its realm. Thus, to say Spring Boot has its own opinions about an application development environment. For example, most of the Java-based web applications use tomcat server. While working on Spring Boot you need not use any server, because Spring Boot already has an embedded tomcat container.
 
-There is also a NoSQL version of this starter kit which is built with MongoDB as the database. The location of GitHub repository for the same is [here](https://github.com/khandelwal-arpit/springboot-starterkit).
+**Concepts2** : What it means is that you don’t need to use any other third-party library or server to run or develop a spring boot application, it already has all of it.
 
-## Spring Boot ##
-_Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can just run. We take an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most Spring Boot applications need very little Spring configuration._
+## Libraries ##
 
-**Spring Boot is opinionated** : This simply means that Spring Boot has its own configurations, application structures, dependencies, Servers and other environment configuration available inside its realm. Thus, to say Spring Boot has its own opinions about an application development environment. For example, most of the Java-based web applications use tomcat server. While working on Spring Boot you need not use any server, because Spring Boot already has an embedded tomcat container.
+**REST** : https://pypi.org/project/RESTinstance/
+**Selenium** :  https://robotframework.org/SeleniumLibrary/
 
-**Spring Boot is stand-alone** : What it means is that you don’t need to use any other third-party library or server to run or develop a spring boot application, it already has all of it.
-
-**It is production-grade** : This implies that application developed using Spring Boot defaults is able to handle all complexities and requirements of a production environment.
-
-**Still very customizable** : It is not worth using a framework which has its own rigid opinions, which you can’t customize or change according to your own business requirements. Although Spring Boot is opinionated you can easily change or customize its defaults to suit your own needs. 
 
 ## Contributors ##
 [Souleymane SANOGO](https://www.linkedin.com/in/souleymanesanogo/)
