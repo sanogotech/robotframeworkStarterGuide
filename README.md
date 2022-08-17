@@ -56,6 +56,7 @@ https://pypi.org/search/?q=%22Robot+Framework+library++%22++REST&o=
 - https://www.javatpoint.com/rpa-vs-test-automation
 - https://fr.wikipedia.org/wiki/Heartbeat_(logiciel)
 - https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-cases
+- https://robocorp.com/docs/libraries/rpa-framework/rpa-desktop
 - https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 - https://collonvillethomas.wordpress.com/2018/05/27/robotframework/
 - https://www.younup.fr/blog/ecrire-ses-keywords-robot-framework-avec-python
