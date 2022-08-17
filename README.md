@@ -52,6 +52,7 @@ https://pypi.org/search/?q=%22Robot+Framework+library++%22++REST&o=
 
 
 ## Docs
+- https://bestofbusinessanalyst.fr/comment-automatiser-vos-taches-a-faible-valeur-ajoutee-grace-a-la-rpa/
 - https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-cases
 - https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 - https://collonvillethomas.wordpress.com/2018/05/27/robotframework/
