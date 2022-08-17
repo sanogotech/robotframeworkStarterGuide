@@ -68,6 +68,7 @@ https://pypi.org/search/?q=%22Robot+Framework+library++%22++REST&o=
 - https://www.blazemeter.com/blog/robot-framework ++
 - https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 - https://www.browserstack.com/guide/robot-framework-and-selenium-tutorial
+- REX :  https://youtu.be/VQnFwH25xZE
 
 ##  Install Tools:
 - [Install Git](https://git-scm.com/downloads)
